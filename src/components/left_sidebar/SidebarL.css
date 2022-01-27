@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.SidebarL {
+  /* width: 100%; */
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  padding-left: 40px;
+  /* padding-top: 15px; */
+  position: fixed;
+}
+
+.icon_container {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  width: max-content;
+  padding: 8px 20px;
+  border-radius: 20px;
+  transition: all 300ms ease-in-out;
+  cursor: pointer;
+}
+.icon_container:hover {
+  background-color: rgba(204, 204, 204, 0.438);
+}
+.btn {
+  width: 240px;
+  height: 50px;
+  border-radius: 30px;
+  font-size: 1.3rem;
+  border: none;
+  background-color: #1a8cd8;
+  color: #fff;
+}
+.bottom {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+  margin-right: 20px;
+}
+.bottom_title {
+  font-size: 12pt;
+  font-weight: 700;
+}
+.bottom_left {
+  display: flex;
+  gap: 8px;
+}
+.desc {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+}
